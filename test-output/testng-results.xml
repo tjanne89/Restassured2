@@ -1,17 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="6" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3059" started-at="2020-05-20T19:22:08Z" finished-at="2020-05-20T19:22:11Z">
+  <suite name="Default suite" duration-ms="6855" started-at="2020-06-09T23:42:24Z" finished-at="2020-06-09T23:42:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3059" started-at="2020-05-20T19:22:08Z" finished-at="2020-05-20T19:22:11Z">
+    <test name="Default test" duration-ms="6855" started-at="2020-06-09T23:42:24Z" finished-at="2020-06-09T23:42:31Z">
+      <class name="restassuredtraining.GetValidatingJsonResponse">
+        <test-method status="PASS" signature="getweatherdetails()[pri:0, instance:restassuredtraining.GetValidatingJsonResponse@5e5792a0]" name="getweatherdetails" duration-ms="3089" started-at="2020-06-09T23:42:24Z" finished-at="2020-06-09T23:42:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getweatherdetails -->
+      </class> <!-- restassuredtraining.GetValidatingJsonResponse -->
+      <class name="restassuredtraining.GetWeatherDetailsJason">
+        <test-method status="FAIL" signature="getweatherdetails()[pri:0, instance:restassuredtraining.GetWeatherDetailsJason@26653222]" name="getweatherdetails" duration-ms="1547" started-at="2020-06-09T23:42:27Z" finished-at="2020-06-09T23:42:29Z">
+          <exception class="junit.framework.AssertionFailedError">
+            <message>
+              <![CDATA[expected:<33.21 Degree celsius> but was:<33.42 Degree celsius>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError: expected:<33.21 Degree celsius> but was:<33.42 Degree celsius>
+at junit.framework.Assert.fail(Assert.java:50)
+at junit.framework.Assert.failNotEquals(Assert.java:287)
+at junit.framework.Assert.assertEquals(Assert.java:67)
+at junit.framework.Assert.assertEquals(Assert.java:74)
+at restassuredtraining.GetWeatherDetailsJason.getweatherdetails(GetWeatherDetailsJason.java:35)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getweatherdetails -->
+      </class> <!-- restassuredtraining.GetWeatherDetailsJason -->
       <class name="restassuredtraining.QuearyParameter">
-        <test-method status="PASS" signature="queryParameter()[pri:0, instance:restassuredtraining.QuearyParameter@46d56d67]" name="queryParameter" duration-ms="3031" started-at="2020-05-20T19:22:08Z" finished-at="2020-05-20T19:22:11Z">
+        <test-method status="PASS" signature="queryParameter()[pri:0, instance:restassuredtraining.QuearyParameter@3532ec19]" name="queryParameter" duration-ms="1262" started-at="2020-06-09T23:42:29Z" finished-at="2020-06-09T23:42:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- queryParameter -->
       </class> <!-- restassuredtraining.QuearyParameter -->
+      <class name="restassuredtraining.GetRequest_allheaders">
+        <test-method status="PASS" signature="getweatherdeatails()[pri:0, instance:restassuredtraining.GetRequest_allheaders@ae45eb6]" name="getweatherdeatails" duration-ms="286" started-at="2020-06-09T23:42:30Z" finished-at="2020-06-09T23:42:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getweatherdeatails -->
+      </class> <!-- restassuredtraining.GetRequest_allheaders -->
+      <class name="restassuredtraining.GetRequest">
+        <test-method status="PASS" signature="getweatherdeatails()[pri:0, instance:restassuredtraining.GetRequest@68c4039c]" name="getweatherdeatails" duration-ms="258" started-at="2020-06-09T23:42:30Z" finished-at="2020-06-09T23:42:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getweatherdeatails -->
+      </class> <!-- restassuredtraining.GetRequest -->
+      <class name="restassuredtraining.GetRequest_authorizationtest">
+        <test-method status="PASS" signature="getweatherdeatails()[pri:0, instance:restassuredtraining.GetRequest_authorizationtest@59f99ea]" name="getweatherdeatails" duration-ms="356" started-at="2020-06-09T23:42:31Z" finished-at="2020-06-09T23:42:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getweatherdeatails -->
+      </class> <!-- restassuredtraining.GetRequest_authorizationtest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

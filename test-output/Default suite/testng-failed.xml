@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="restassuredtraining.QuearyParameter">
+      <class name="restassuredtraining.GetWeatherDetailsJason">
         <methods>
-          <include name="QueryParameter"/>
+          <include name="getweatherdetails"/>
         </methods>
-      </class> <!-- restassuredtraining.QuearyParameter -->
+      </class> <!-- restassuredtraining.GetWeatherDetailsJason -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
